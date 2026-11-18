@@ -34,7 +34,7 @@ def head(title, description, page):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&amp;family=Source+Sans+3:wght@400;500;600&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/site.css">
+<link rel="stylesheet" href="assets/css/site.css?v=4">
 <script type="application/ld+json">
 {{
   "@context": "https://schema.org",
@@ -139,7 +139,7 @@ def footer():
   <a class="btn btn-signal" href="tel:{PHONE_TEL}">{ICON['phone']}Call</a>
   <a class="btn btn-ink" href="{WHATSAPP}" target="_blank" rel="noopener">{ICON['chat']}WhatsApp</a>
 </div>
-<script src="assets/js/site.js"></script>
+<script src="assets/js/site.js?v=4"></script>
 </body>
 </html>
 """
